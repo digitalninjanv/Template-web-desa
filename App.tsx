@@ -25,7 +25,7 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <Link to="/" className="flex items-center space-x-3">
-            <img src="https://picsum.photos/seed/logo/40/40" alt="Logo Desa" className="h-10 w-10 rounded-full object-cover" />
+            <img src="https://raw.githubusercontent.com/digitalninjanv/ai/refs/heads/main/logo.webp" alt="Logo Desa" className="h-10 w-10 rounded-full object-cover" />
             <span className="text-xl font-bold text-gray-800">Desa Maju Sejahtera</span>
           </Link>
           <div className="hidden md:flex items-center space-x-1">
