@@ -28,8 +28,13 @@ export const IconMail = (props: React.SVGProps<SVGSVGElement>) => (
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
 );
 
-export const IconMapPin = (props: React.SVGProps<SVGSVGElement>) => (
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+
+export const IconMapPin = (props: React.ImgHTMLAttributes<HTMLImageElement>) => (
+  <img
+    src="https://raw.githubusercontent.com/digitalninjanv/Template-web-desa/refs/heads/main/img/fire_8722283.png"
+    alt="IconMapPin Icon"
+    {...props}
+  />
 );
 
 // Navigation
